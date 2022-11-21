@@ -1,4 +1,4 @@
-# burger-vue
+# landing-page-vue
 
 ## Project setup
 ```
