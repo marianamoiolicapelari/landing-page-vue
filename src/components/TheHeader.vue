@@ -1,5 +1,11 @@
 <template>
-  <div><Navbar /></div>
+  <div>
+    <Navbar />
+    <div>
+      <p>CoffeeCup</p>
+      <img src="" alt="" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -12,7 +18,6 @@ export default {
 </script>
 
 <style scoped>
-
 div {
   background-color: rgb(205, 165, 243);
   width: 100%;
