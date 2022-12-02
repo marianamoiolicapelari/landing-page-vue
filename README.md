@@ -1,22 +1,31 @@
-# landing-page-vue
+## **** Em construção **** ##
 
-## Project setup
-```
-npm install
-```
+## Landing Page em Vue.js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 💻 Sobre o Projeto
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 🎨 Layout
+
+![image]()
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+<code><img height="26" src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg"/></code> - 
+<code><img height="26" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"/></code> - 
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/></code> - 
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/></code>
+
+## 💡 Como executar o projeto
+
+*Você pode clonar o repositório inteiro.
+
+Acessar no terminal a pasta onde se encontra o projeto Frontend.</br>
+Rodar o comando npm install.</br>
+Rodar o comando npm run serve.
 
 ## 📝 Licença
 
