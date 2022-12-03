@@ -1,9 +1,11 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <a href="/#">Menu</a> |
-    <a href="/#">Blog</a>
+  <nav class="nav">
+    <router-link class="nav-link active" to="/">Home</router-link> 
+    <router-link class="nav-link" to="/about">About</router-link> 
+    <a class="nav-link" href="/#">Menu</a> 
+    <a class="nav-link" href="/#">Blog</a> 
+    <a class="nav-link" href="/#">Shop</a> 
+    <a class="nav-link" href="/#">Contact</a> 
   </nav>
 </template>
 
@@ -13,4 +15,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+/* nav a {
+  margin: 20px;
+  text-decoration: none;
+  color: #1D2440;
+  font-size: 1.5rem;
+} */
+</style>

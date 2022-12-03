@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="d-flex justify-content-around p-5 bg-secondary">
     <Navbar />
     <div>
       <p>CoffeeCup</p>
-      <img src="" alt="" />
+      <img src="../../public/img/LogoWhite.png" alt="" />
     </div>
   </div>
 </template>
@@ -18,8 +18,5 @@ export default {
 </script>
 
 <style scoped>
-div {
-  background-color: rgb(205, 165, 243);
-  width: 100%;
-}
+
 </style>
