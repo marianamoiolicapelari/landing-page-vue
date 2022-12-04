@@ -1,12 +1,18 @@
 <template>
-  <nav class="nav">
-    <router-link class="nav-link active" to="/">Home</router-link> 
-    <router-link class="nav-link" to="/about">About</router-link> 
-    <a class="nav-link" href="/#">Menu</a> 
-    <a class="nav-link" href="/#">Blog</a> 
-    <a class="nav-link" href="/#">Shop</a> 
-    <a class="nav-link" href="/#">Contact</a> 
-  </nav>
+  <div class="navbar">
+    <nav class="navbar-links">
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+      <a href="/#">Menu</a>
+      <a href="/#">Blog</a>
+      <a href="/#">Shop</a>
+      <a href="/#">Contact</a>
+    </nav>
+    <div class="navbar-logo">
+      <img src="../../public/img/LogoWhite.png" alt="" width="35" height="40" />
+      <p>CoffeeCup</p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -16,10 +22,29 @@ export default {
 </script>
 
 <style scoped>
-/* nav a {
-  margin: 20px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem 3rem 3rem 3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
+
+.navbar-links a {
+  padding-right: 6rem;
   text-decoration: none;
-  color: #1D2440;
-  font-size: 1.5rem;
-} */
+  color: #1d2440;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo p {
+  margin: 0rem 6rem 0rem 0.5rem;
+  color: #FFF;
+}
+
 </style>
