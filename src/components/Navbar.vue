@@ -26,7 +26,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7rem 3rem 3rem 3rem;
+  padding: 8.5rem 3rem 3rem 3rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
 }
@@ -40,10 +40,11 @@ export default {
 .navbar-logo {
   display: flex;
   align-items: center;
+  padding-left: 2rem;
 }
 
 .navbar-logo p {
-  margin: 0rem 6rem 0rem 0.5rem;
+  margin: 0rem 5rem 0rem 0.5rem;
   color: #FFF;
 }
 
