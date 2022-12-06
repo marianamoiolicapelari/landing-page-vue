@@ -32,7 +32,6 @@ export default {
   height: 100vh;
   background-image: url("../../public/img/Background.png");
   background-size: 100%;
-  background: cover;
   background-repeat: no-repeat;
 }
 

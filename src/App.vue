@@ -1,14 +1,17 @@
 <template>
   <TheHeader />
   <router-view />
+  <FirstSection />
 </template>
 
 <script>
 import TheHeader from "@/components/TheHeader.vue";
+import FirstSection from "@/components/FirstSection.vue"
 
 export default {
   components: {
     TheHeader,
+    FirstSection
   },
 };
 </script>

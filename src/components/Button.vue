@@ -17,5 +17,11 @@ button {
   background-color: #ff540e;
   color: #fff;
   padding: 0.4rem 2.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fc7039;
+  transition: 0.5s;
 }
 </style>
