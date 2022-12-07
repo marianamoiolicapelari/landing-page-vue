@@ -1,14 +1,14 @@
 <template>
-  <div class="first-section">
-    <div class="first-section-left">
-      <h2>Dark Coffees</h2>
+  <div class="third-section">
+    <div class="third-section-left">
+      <h2>Hot Coffees</h2>
       <Button />
     </div>
 
-    <div class="first-section-center">
-      <img class="coffee" src="../../public/img/Coffee1.png" alt="" />
+    <div class="third-section-center">
+      <img class="coffee" src="../../public/img/Coffee3.png" alt="" />
     </div>
-    <div class="first-section-right">
+    <div class="third-section-right">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -25,7 +25,7 @@
 <script>
 import Button from "@/components/Button.vue";
 export default {
-  name: "FirstSection",
+  name: "ThirdSection",
   components: {
     Button,
   },
@@ -33,24 +33,23 @@ export default {
 </script>
 
 <style scoped>
-.first-section {
+.third-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100vh;
   background-color: #fefbfa;
-  background-image: url("../../public/img/Shape.png");
+  background-image: url("../../public/img/Shape2.png");
   background-repeat: no-repeat;
-  /* background-size: contain; */
   background-position: right;
 }
 
-.first-section-left {
+.third-section-left {
   width: 350px;
   margin-left: 3rem;
 }
 
-.first-section-left h2 {
+.third-section-left h2 {
   width: 350px;
   font-family: "Cormorant Upright", serif;
   font-style: italic;
@@ -60,15 +59,15 @@ export default {
   padding-bottom: 6rem;
 }
 
-.first-section-center {
+.third-section-center {
   width: 300px;
 }
 
-.first-section-right {
+.third-section-right {
   width: 500px;
 }
 
-.first-section-right p {
+.third-section-right p {
   color: #fff;
   font-family: "Noto Sans", sans-serif;
   font-weight: 100;

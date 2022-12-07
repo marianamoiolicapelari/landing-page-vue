@@ -2,16 +2,22 @@
   <TheHeader />
   <router-view />
   <FirstSection />
+  <SecondSection />
+  <ThirdSection />
 </template>
 
 <script>
 import TheHeader from "@/components/TheHeader.vue";
-import FirstSection from "@/components/FirstSection.vue"
+import FirstSection from "@/components/FirstSection.vue";
+import SecondSection from "@/components/SecondSection.vue"
+import ThirdSection from "@/components/ThirdSection.vue"
 
 export default {
   components: {
     TheHeader,
-    FirstSection
+    FirstSection,
+    SecondSection,
+    ThirdSection
   },
 };
 </script>
