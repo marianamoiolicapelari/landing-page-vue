@@ -46,7 +46,7 @@ export default {
 
 .third-section-left {
   width: 350px;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .third-section-left h2 {
@@ -61,10 +61,11 @@ export default {
 
 .third-section-center {
   width: 300px;
+  margin-right: 4rem;
 }
 
 .third-section-right {
-  width: 500px;
+  width: 520px;
 }
 
 .third-section-right p {
@@ -73,7 +74,7 @@ export default {
   font-weight: 100;
   text-align: right;
   line-height: 2.2rem;
-  padding-right: 3rem;
+  margin-right: 4rem;
   font-size: 1.3rem;
 }
 </style>

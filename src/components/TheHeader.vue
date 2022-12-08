@@ -37,7 +37,7 @@ export default {
 
 .header-informations {
   width: 800px;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .header-informations h1{
@@ -66,7 +66,7 @@ margin-top: 2rem;
 }
 
 .btn-header {
-  margin: 2rem 3rem;
+  margin: 2rem 4rem;
 }
 
 </style>

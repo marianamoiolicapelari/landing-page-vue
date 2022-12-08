@@ -41,13 +41,12 @@ export default {
   background-color: #fefbfa;
   background-image: url("../../public/img/Shape.png");
   background-repeat: no-repeat;
-  /* background-size: contain; */
   background-position: right;
 }
 
 .first-section-left {
   width: 350px;
-  margin-left: 3rem;
+  padding-left: 4rem;
 }
 
 .first-section-left h2 {
@@ -65,7 +64,7 @@ export default {
 }
 
 .first-section-right {
-  width: 500px;
+  width: 520px;
 }
 
 .first-section-right p {
@@ -74,7 +73,7 @@ export default {
   font-weight: 100;
   text-align: right;
   line-height: 2.2rem;
-  padding-right: 3rem;
+  margin-right: 4rem;
   font-size: 1.3rem;
 }
 </style>

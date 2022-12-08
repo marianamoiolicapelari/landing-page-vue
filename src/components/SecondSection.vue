@@ -45,7 +45,7 @@ export default {
 }
 
 .second-section-left {
-  width: 500px;
+  width: 520px;
 }
 
 .second-section-left p {
@@ -54,18 +54,18 @@ export default {
   font-weight: 100;
   text-align: left;
   line-height: 2.2rem;
-  padding-left: 3rem;
+  margin-left: 4rem;
   font-size: 1.3rem;
 }
 
 .second-section-center {
   width: 300px;
- padding-right: 30rem;
+  margin-right: 16rem;
 }
 
 .second-section-right {
   width: 350px;
-  margin-right: 3rem;
+  margin-right: 4rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

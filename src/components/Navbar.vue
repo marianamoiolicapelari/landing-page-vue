@@ -1,14 +1,14 @@
 <template>
   <div class="navbar">
     <nav class="navbar-links">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <a href="/#">Menu</a>
-      <a href="/#">Blog</a>
-      <a href="/#">Shop</a>
-      <a href="/#">Contact</a>
+      <router-link class="navbar-color" to="/">Home</router-link>
+      <router-link class="navbar-color" to="/about">About</router-link>
+      <a class="navbar-color" href="/#">Menu</a>
+      <a class="navbar-color" href="/#">Blog</a>
+      <a class="navbar-color" href="/#">Shop</a>
+      <a class="navbar-color" href="/#">Contact</a>
     </nav>
-    <div class="navbar-logo">
+    <div class="navbar-logo navbar-media-social">
       <img src="../../public/img/LogoWhite.png" alt="" width="35" height="40" />
       <p>CoffeeCup</p>
     </div>
@@ -26,7 +26,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8.5rem 3rem 3rem 3rem;
+  padding: 8.5rem 3rem 3rem 4rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
 }
