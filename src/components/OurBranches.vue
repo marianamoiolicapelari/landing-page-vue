@@ -4,7 +4,16 @@
     <div class="our-branches-countries">
       <div class="new-york">
         <img src="../../public/img/City1.png" alt="" />
-        <h4>New York</h4>
+
+        <div class="title">
+          <div class="img">
+            <img src="../../public/img/Rectangle.png" alt="" />
+          </div>
+          <div class="title-img">
+            <h4>New York</h4>
+          </div>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut enim
@@ -13,7 +22,16 @@
       </div>
       <div class="texas">
         <img src="../../public/img/City2.png" alt="" />
-        <h4>Texas</h4>
+
+        <div class="title">
+          <div class="img">
+            <img src="../../public/img/Rectangle.png" alt="" />
+          </div>
+          <div class="title-img">
+            <h4>Texas</h4>
+          </div>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut enim
@@ -22,7 +40,16 @@
       </div>
       <div class="new-jersy">
         <img src="../../public/img/City3.png" alt="" />
-        <h4>New Jersy</h4>
+
+        <div class="title">
+          <div class="img">
+            <img src="../../public/img/Rectangle.png" alt="" />
+          </div>
+          <div class="title-img">
+            <h4>New Jersy</h4>
+          </div>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut enim
@@ -63,7 +90,7 @@ export default {
 .texas,
 .new-jersy {
   width: 25%;
-  background-color: #253D6B;
+  background-color: #253d6b;
   box-shadow: 5px 5px 10px 0px rgb(89, 88, 88);
   margin-bottom: 3rem;
 }
@@ -76,25 +103,41 @@ export default {
 
 .new-york h4,
 .texas h4,
-.new-jersy h4{
+.new-jersy h4 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5rem;
-  color: #FFF;
+  color: #fff;
   padding: 1rem 0;
+  z-index: 1;
+}
+
+.title {
+  display: flex;
+  position: relative;
+}
+
+.img {
+  position: relative;
+  top: 1rem;
+  left: -1.1rem;
+}
+
+.title-img {
+  position: absolute;
+  top: 0.7rem;
+  left: 1.3rem;
 }
 
 .new-york p,
 .texas p,
-.new-jersy p{
+.new-jersy p {
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   line-height: 2rem;
   margin: 1.1rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   background-color: #151a2f;
 }
 </style>
-
-

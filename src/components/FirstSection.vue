@@ -6,7 +6,12 @@
     </div>
 
     <div class="first-section-center">
-      <img class="coffee" src="../../public/img/Coffee1.png" alt="" />
+      <div class="coffee">
+        <img class="coffee" src="../../public/img/Coffee1.png" alt="" />
+      </div>
+      <div class="detail">
+        <img class="coffee" src="../../public/img/Ellipse.png" alt="" />
+      </div>
     </div>
     <div class="first-section-right">
       <p>
@@ -61,6 +66,20 @@ export default {
 
 .first-section-center {
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.coffee {
+  position: relative;
+  z-index: 1;
+}
+
+.detail {
+  position: absolute;
+  z-index: 0;
 }
 
 .first-section-right {

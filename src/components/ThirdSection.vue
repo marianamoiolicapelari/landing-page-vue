@@ -6,7 +6,12 @@
     </div>
 
     <div class="third-section-center">
-      <img class="coffee" src="../../public/img/Coffee3.png" alt="" />
+      <div class="coffe">
+        <img class="coffee" src="../../public/img/Coffee3.png" alt="" />
+      </div>
+      <div class="detail">
+        <img class="coffee" src="../../public/img/Ellipse.png" alt="" />
+      </div>
     </div>
     <div class="third-section-right">
       <p>
@@ -61,7 +66,21 @@ export default {
 
 .third-section-center {
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   margin-right: 4rem;
+}
+
+.coffee {
+  position: relative;
+  z-index: 1;
+}
+
+.detail {
+  position: absolute;
+  z-index: 0;
 }
 
 .third-section-right {

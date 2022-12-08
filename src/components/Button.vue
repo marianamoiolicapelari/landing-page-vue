@@ -14,7 +14,7 @@ button {
   font-size: 2rem;
   border-radius: 1rem;
   border: none;
-  background-color: #ff540e;
+  background-color: #FF4900;
   color: #fff;
   padding: 0.4rem 2.2rem;
   cursor: pointer;

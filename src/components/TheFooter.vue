@@ -76,6 +76,7 @@ export default {
   list-style: none;
   line-height: 2.3rem;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
 .principal {
@@ -87,6 +88,19 @@ export default {
 .navbar-footer {
   padding: 4rem 0 3rem 6rem;
   background-color: #1d2440;
+}
+
+:deep(.navbar-color) {
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+
+:deep(.navbar-color):hover {
+ color: #ff540e !important;
+}
+
+:deep(.navbar-media-social) {
+  display: none;
 }
 
 .navbar-and-social-media {
@@ -105,14 +119,10 @@ export default {
   color: #ff540e;
   padding: 0 1rem;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
-:deep(.navbar-color) {
-  color: #fff !important;
-  font-size: 1.5rem;
-}
-
-:deep(.navbar-media-social) {
-  display: none;
+.social-media i:hover {
+  color: #FFF;
 }
 </style>

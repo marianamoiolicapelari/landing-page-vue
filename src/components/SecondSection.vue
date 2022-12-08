@@ -13,7 +13,12 @@
     </div>
 
     <div class="second-section-center">
-      <img class="coffee" src="../../public/img/Coffee2.png" alt="" />
+      <div class="coffee">
+        <img class="coffee" src="../../public/img/Coffee2.png" alt="" />
+      </div>
+      <div class="detail">
+        <img class="coffee" src="../../public/img/Ellipse.png" alt="" />
+      </div>
     </div>
     <div class="second-section-right">
       <h2>Cold Coffees</h2>
@@ -60,7 +65,21 @@ export default {
 
 .second-section-center {
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   margin-right: 16rem;
+}
+
+.coffee {
+  position: relative;
+  z-index: 1;
+}
+
+.detail {
+  position: absolute;
+  z-index: 0;
 }
 
 .second-section-right {
@@ -69,10 +88,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  
 }
 
-.second-section-right h2{
+.second-section-right h2 {
   width: 350px;
   font-family: "Cormorant Upright", serif;
   font-style: italic;
@@ -82,5 +100,4 @@ export default {
   text-align: right;
   padding-bottom: 6rem;
 }
-
 </style>
