@@ -1,12 +1,12 @@
 <template>
   <div class="navbar">
     <nav class="navbar-links">
-      <router-link class="navbar-color" to="/">Home</router-link>
-      <router-link class="navbar-color" to="/about">About</router-link>
-      <a class="navbar-color" href="/#">Menu</a>
-      <a class="navbar-color" href="/#">Blog</a>
-      <a class="navbar-color" href="/#">Shop</a>
-      <a class="navbar-color" href="/#">Contact</a>
+      <a class="navbar-color" href="/#header">Home</a>
+      <a class="navbar-color" href="/#customer-reviews">About</a>
+      <a class="navbar-color" href="/#first-section">Menu</a>
+      <a class="navbar-color" href="/#our-branches">Blog</a>
+      <a class="navbar-color" href="/#second-section">Shop</a>
+      <a class="navbar-color" href="/#contact">Contact</a>
     </nav>
     <div class="navbar-logo navbar-media-social">
       <img src="../../public/img/LogoWhite.png" alt="" width="35" height="40" />
@@ -45,7 +45,6 @@ export default {
 
 .navbar-logo p {
   margin: 0rem 5rem 0rem 0.5rem;
-  color: #FFF;
+  color: #fff;
 }
-
 </style>

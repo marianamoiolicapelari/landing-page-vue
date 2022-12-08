@@ -1,5 +1,5 @@
 <template>
-  <div class="second-section">
+  <div id="second-section" class="second-section">
     <div class="second-section-left">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod

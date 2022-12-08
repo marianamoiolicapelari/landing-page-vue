@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div id="contact" class="footer">
     <div class="footer-logo">
       <img src="../../public/img/LogoWhite.png" alt="" width="65" height="70" />
       <p>CoffeeCup</p>

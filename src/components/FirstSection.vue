@@ -1,5 +1,5 @@
 <template>
-  <div class="first-section">
+  <div id="first-section" class="first-section">
     <div class="first-section-left">
       <h2>Dark Coffees</h2>
       <Button />

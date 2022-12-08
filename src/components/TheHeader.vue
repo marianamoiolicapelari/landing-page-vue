@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div id="header" class="header">
     <Navbar />
     <div class="header-informations">
       <h1>Coffee</h1>

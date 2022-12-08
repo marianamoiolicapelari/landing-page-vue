@@ -1,6 +1,5 @@
 <template>
   <TheHeader />
-  <router-view />
   <FirstSection />
   <SecondSection />
   <ThirdSection />
@@ -18,7 +17,7 @@ import ThirdSection from "@/components/ThirdSection.vue";
 import CustomerReviews from "@/components/CustomerReviews.vue";
 import OpeningHours from "@/components/OpeningHours.vue";
 import OurBranches from "@/components/OurBranches.vue";
-import TheFooter from "@/components/TheFooter.vue"
+import TheFooter from "@/components/TheFooter.vue";
 
 export default {
   components: {
@@ -29,7 +28,7 @@ export default {
     CustomerReviews,
     OpeningHours,
     OurBranches,
-    TheFooter
+    TheFooter,
   },
 };
 </script>

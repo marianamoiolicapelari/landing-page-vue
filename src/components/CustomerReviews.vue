@@ -1,5 +1,5 @@
 <template>
-  <div class="customer-reviews">
+  <div id="customer-reviews" class="customer-reviews">
     <h2>Customer Reviews</h2>
     <div class="customer-reviews-info">
       <div class="customer-reviews-info-img">
