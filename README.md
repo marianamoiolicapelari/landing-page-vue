@@ -1,14 +1,13 @@
-## **** Em construção **** ##
-
-## Landing Page em Vue.js
+## Landing Page Coffee Shop
 
 ## 💻 Sobre o Projeto
 
+Landing page desenvolvida em Vue.js 3 trabalhando com components.
 
 
 ## 🎨 Layout
 
-![image]()
+![image](https://github.com/marianamoiolicapelari/landing-page-vue/blob/main/public/img/template.jpg)
 
 ## 🛠 Tecnologias
 
@@ -26,6 +25,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Acessar no terminal a pasta onde se encontra o projeto Frontend.</br>
 Rodar o comando npm install.</br>
 Rodar o comando npm run serve.
+
+*** ou ***
+
+Clique no link abaixo para visualizar em desktop: 
+
+https://coffeeshop-mmc.netlify.app
 
 ## 📝 Licença
 
