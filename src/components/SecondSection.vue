@@ -50,7 +50,7 @@ export default {
 }
 
 .second-section-left {
-  width: 520px;
+ width: 415px;
 }
 
 .second-section-left p {
@@ -60,7 +60,7 @@ export default {
   text-align: left;
   line-height: 2.2rem;
   margin-left: 4rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .second-section-center {
@@ -69,7 +69,7 @@ export default {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-right: 16rem;
+  margin-right:3rem;
 }
 
 .coffee {
@@ -95,7 +95,7 @@ export default {
   font-family: "Cormorant Upright", serif;
   font-style: italic;
   color: #1d2440;
-  font-size: 8rem;
+  font-size: 6rem;
   line-height: 6.5rem;
   text-align: right;
   padding-bottom: 6rem;

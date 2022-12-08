@@ -59,7 +59,7 @@ export default {
   font-family: "Cormorant Upright", serif;
   font-style: italic;
   color: #1d2440;
-  font-size: 8rem;
+  font-size: 6rem;
   line-height: 7rem;
   padding-bottom: 6rem;
 }
@@ -84,7 +84,7 @@ export default {
 }
 
 .third-section-right {
-  width: 520px;
+  width: 415px;
 }
 
 .third-section-right p {
@@ -94,6 +94,6 @@ export default {
   text-align: right;
   line-height: 2.2rem;
   margin-right: 4rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 </style>

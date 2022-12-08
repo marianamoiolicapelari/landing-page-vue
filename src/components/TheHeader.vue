@@ -29,10 +29,8 @@ export default {
 
 .header {
   width: 100%;
-  height: 100vh;
   background-image: url("../../public/img/Background.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-informations {
@@ -45,7 +43,7 @@ font-family: 'Cormorant Upright', serif;
 font-weight: 100;
 font-style: italic;
 color: #1d2440;
-font-size: 10rem;
+font-size: 9rem;
 margin-top: 2rem;
 }
 
@@ -53,7 +51,7 @@ margin-top: 2rem;
 font-family: 'Noto Sans', sans-serif; 
 font-weight: 400;
 color: #FF540E;
-font-size: 2.8rem;
+font-size: 2rem;
 margin-top: 3rem;
 }
 
@@ -61,12 +59,12 @@ margin-top: 3rem;
 font-family: 'Noto Sans', sans-serif; 
 font-weight: 400; 
 color: #1d2440;
-font-size: 1.25rem;
-margin-top: 2rem;
+font-size: 0.9rem;
+margin-top: 1.5rem;
 }
 
 .btn-header {
-  margin: 2rem 4rem;
+  margin: 4rem 4rem;
 }
 
 </style>

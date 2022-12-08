@@ -72,7 +72,7 @@ export default {
 .customer-reviews-info-text-1 h3,
 .customer-reviews-info-text-2 h3 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -83,6 +83,7 @@ export default {
 .customer-reviews-info-text-1 p,
 .customer-reviews-info-text-2 p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0 1rem;
 }
 </style>

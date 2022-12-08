@@ -26,21 +26,26 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8.5rem 3rem 3rem 4rem;
+  padding: 8rem 1.5rem 3rem 4rem;
   font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  position: relative;
 }
 
 .navbar-links a {
-  padding-right: 6rem;
+  padding-right: 4rem;
   text-decoration: none;
   color: #1d2440;
 }
 
 .navbar-logo {
   display: flex;
+  width: 100px;
   align-items: center;
-  padding-left: 2rem;
+  margin-right: 8rem;
+  position: absolute;
+  right: 2.5rem;
+
 }
 
 .navbar-logo p {
