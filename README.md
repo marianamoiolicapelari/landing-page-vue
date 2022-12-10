@@ -4,7 +4,6 @@
 
 Landing page desenvolvida em Vue.js 3 trabalhando com components.
 
-
 ## 🎨 Layout
 
 ![image](https://github.com/marianamoiolicapelari/landing-page-vue/blob/main/public/img/template.jpg)
