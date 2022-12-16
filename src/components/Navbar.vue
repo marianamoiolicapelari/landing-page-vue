@@ -29,23 +29,40 @@ export default {
   padding: 8rem 1.5rem 6rem 4rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  position: relative;
 }
 
 .navbar-links a {
-  padding-right: 4rem;
+  margin-right: 4rem;
   text-decoration: none;
   color: #1d2440;
+  position: relative;
+}
+
+.navbar-links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF4900;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-links a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .navbar-logo {
   display: flex;
   width: 100px;
   align-items: center;
-  margin-right: 14%;
-  /* position: absolute;
-  right: 15%; */
-
+  margin-right: 11%;
 }
 
 .navbar-logo p {

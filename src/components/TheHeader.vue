@@ -63,6 +63,6 @@ export default {
 }
 
 .btn-header {
-  margin: 4rem;
+  margin: 3.6rem 4rem;
 }
 </style>
