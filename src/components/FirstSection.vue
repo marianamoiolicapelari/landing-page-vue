@@ -46,7 +46,9 @@ export default {
   background-color: #fefbfa;
   background-image: url("../../public/img/Shape.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100%;
+  background-size: 53%;
+
 }
 
 .first-section-left {

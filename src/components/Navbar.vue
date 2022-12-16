@@ -21,14 +21,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style >
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8rem 1.5rem 3rem 4rem;
+  padding: 8rem 1.5rem 6rem 4rem;
   font-family: "Roboto", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   position: relative;
 }
 
@@ -42,9 +42,9 @@ export default {
   display: flex;
   width: 100px;
   align-items: center;
-  margin-right: 8rem;
-  position: absolute;
-  right: 2.5rem;
+  margin-right: 14%;
+  /* position: absolute;
+  right: 15%; */
 
 }
 
