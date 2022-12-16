@@ -49,6 +49,7 @@ export default {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
