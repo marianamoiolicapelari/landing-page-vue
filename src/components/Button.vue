@@ -25,4 +25,10 @@ button:hover {
   background-color: #fc7039;
   transition: 0.5s;
 }
+
+button:active {
+  background-color: #fff;
+  color:#FF4900;
+  border: solid 1px #FF4900;
+}
 </style>
