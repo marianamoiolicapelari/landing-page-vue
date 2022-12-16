@@ -4,7 +4,6 @@
 
 Landing page desenvolvida em Vue.js 3 trabalhando com components.
 
-
 ## 🎨 Layout
 
 ![image](https://github.com/marianamoiolicapelari/landing-page-vue/blob/main/public/img/template.jpg)
@@ -20,7 +19,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-*Você pode clonar o repositório inteiro.
+** Você pode clonar o repositório inteiro.
 
 Acessar no terminal a pasta onde se encontra o projeto Frontend.</br>
 Rodar o comando npm install.</br>
